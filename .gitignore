@@ -1,0 +1,41 @@
+# Ignore object files and libraries
+*.o
+*.a
+*.so
+
+# Ignore executables
+*.out
+*.exe
+
+# Ignore generated files
+Makefile
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore build output
+/build/
+
+# Ignore log and temporary files
+*.log
+*.swp
+*~
+
+# Ignore compiled binaries
+bin/
+
+# Ignore dependency directories
+lib/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore macOS metadata files
+.DS_Store
